@@ -1,0 +1,31 @@
+#main{
+    border-style: solid;
+    border-color: rgb(5, 10, 102);
+    border-width: 2px;
+}
+
+.white{
+    color:white;
+}
+
+* {
+    font-family:"Sans Serif";
+    background-color: lightblue;
+}
+
+@media(min-width: 600px){
+
+    #container{
+        display:flex;
+    }   
+
+    #sidebar{
+        width:30%;
+    }
+
+    #main{
+        width:70%;
+    }
+
+}
+
